@@ -12,7 +12,7 @@ public class SampleJUnitTest {
 
 	@BeforeClass
 	static public void beforeClass() {
-		System.out.println("beforeClass");
+		System.out.println("beforeClass_");
 	}
 	
 	@AfterClass
