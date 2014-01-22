@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AppConfig.class)
 //@ActiveProfiles("korea")
-public class TestContext31Test {
+public class SpringContext31Tests {
 	@Resource
 	String whiteship;
 	@Resource

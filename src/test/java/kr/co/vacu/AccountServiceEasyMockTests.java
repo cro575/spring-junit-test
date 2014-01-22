@@ -11,7 +11,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 //http://openframework.or.kr/framework_reference/easymock/2.3/Documentation_ko.html
-public class TestAccountServiceEasyMock {
+public class AccountServiceEasyMockTests {
 	private AccountManager mockAccountManager;
 
 	@Before

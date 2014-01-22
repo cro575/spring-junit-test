@@ -27,7 +27,7 @@ import org.springframework.validation.BindingResult;
 //@TransactionConfiguration(transactionManager = "transactionManager",defaultRollback = true)
 //@Transactional
 
-public class testJunit02 {
+public class Junit02Tests {
 
 /*	@Test
 	 public void testUserDeptSearch() {

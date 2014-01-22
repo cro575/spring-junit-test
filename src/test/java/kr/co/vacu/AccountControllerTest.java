@@ -29,9 +29,9 @@ import org.springframework.ui.Model;
 @ContextConfiguration(locations={"file:src/main/**/*-context.xml"})
 //@ContextConfiguration(locations={"file:src/main/**/root-*.xml"})
 
-public class TestAccountControllerEasyMock {
+public class AccountControllerTest {
 
-	 Log logger = LogFactory.getLog(TestAccountControllerEasyMock.class);
+	 Log logger = LogFactory.getLog(AccountControllerTest.class);
 	 
 	@Autowired
 	private AccountController accountController;

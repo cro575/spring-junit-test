@@ -52,7 +52,7 @@ class TaskAnswer implements Answer<String> {
     }
 }
  
-public class testMockito {
+public class MockitoTests {
  
     @Rule
     public ExpectedException exception = ExpectedException.none();

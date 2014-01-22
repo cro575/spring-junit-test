@@ -6,7 +6,7 @@ import java.util.*;
 
 import org.junit.Test;
 
-public class testJunit01 {
+public class Junit01Tests {
 
 	@Test
 	public void testCreationBean() {

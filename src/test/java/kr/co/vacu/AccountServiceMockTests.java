@@ -9,7 +9,7 @@ import kr.co.vacu.service.*;
 
 import org.junit.Test;
 
-public class TestAccountServiceMock {
+public class AccountServiceMockTests {
 
 	@Test
 	public void testTransferOk() {
