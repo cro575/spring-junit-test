@@ -31,8 +31,17 @@ public class WriteArticleServiceImplTests {
 
         verify(mockedGenerator).getNextId();
         verify(mockedDao).insert(article);
+  
+        /*        
+        Mock 객체를 사용하는 이유는 테스트 하려는 클래스가 연관된 객체와 올바르게 협업하는 지를 테스트 하기 위함도 있다.
+        따라서, Mock 객체의 메서드가 올바르게 실행되는 지 확인해볼 필요가 있다. Mock 객체의 특정 메서드가 호출되었는 지 확인하려면 
+        Mockito.verify() 메서드와 Mock 객체의 메서드를 함께 사용하면 된다. 아래는 사용 예이다.
+
+        위 코드에서 verify(mockedGenerator).getNextId() 메서드는 mockedGenerator 객체의 getNextId() 메서드가 호출되었는 지의 여부를 확인한다.
+        verify(mockedDao).insert(article) 메서드의 경우 mockedDao 객체의 insert() 메서드 호출 중에서 article 객체를 인자로 전달받는 호출이 있었는 지 여부를 확인한다.
+        일단 Mock 객체가 만들어지면 해당 Mock 객체는 메서드 호출을 모두 기억하기 때문에, 어떤 메서드 호출이든 검증할 수 있다.
+
         
-/*
 		Article article = new Article();
         when(mockedArticleDao.insert(article)).thenReturn(article));
         

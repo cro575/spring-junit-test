@@ -55,7 +55,7 @@ public class Junit02Tests {
 		Model model = new ExtendedModelMap();
 		String viewName = controller.formSubmit(account, result, model);
 		assertThat(viewName, is("redirect:account/list"));
-		verify(accountManager).addAccount("1", account);
+		verify(accountManager).addAccount("1", account); //http://javacan.tistory.com/148
 	}
 	
 	@Test
