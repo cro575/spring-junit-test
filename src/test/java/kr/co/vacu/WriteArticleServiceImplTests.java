@@ -10,7 +10,7 @@ import kr.co.vacu.service.WriteArticleServiceImpl;
 import org.junit.Test;
 
 //http://javacan.tistory.com/148
-public class WriteArticleServiceImplTest {
+public class WriteArticleServiceImplTests {
 	@Test
     public void writeArticle() {
         // mock 객체 생성
