@@ -107,5 +107,5 @@ public class AssertThatTests {
 		  assertTrue("abc".contains("d"));			assertThat("abc", containsString("d"));
 		  assertTrue("abc".contains("d"));			assertThat("abc", containsString("d"));
 	  }
-	  
+
 }
